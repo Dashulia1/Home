@@ -51,6 +51,7 @@ Moscow
 Установка пакета #subo apr update && subo apt install openssh-server -y
 
 (sudo apt update
+
 sudo apt install openssh-server -y)
 
 
