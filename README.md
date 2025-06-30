@@ -34,7 +34,6 @@ Moscow
 
 (#sudo ubuntu-drivers autoinstall)
 
-
 Устройства - Общий буфер обмена - Двунаправленный
 
 Устройства - Функция Drug - Двунаправленный
@@ -50,6 +49,10 @@ Moscow
 (узнать localhost) #ping localhost (192.168.56.101/22/SSH)
 
 Установка пакета #subo apr update && subo apt install openssh-server -y
+
+(sudo apt update
+sudo apt install openssh-server -y)
+
 
 #sudo systemctl start ssh
 #sudo systemctl enable ssh
