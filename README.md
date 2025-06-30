@@ -44,7 +44,7 @@ Moscow
 
 Запустить терминал: Ctrl + Alt + T
 
-(узнать localhost) ## ping localhost sudo apt install gnome-system-tools (192.168.56.101/22/SSH)
+(узнать localhost) ## ping localhost (192.168.56.101/22/SSH)
 
 
 ## 3. Установлено базовое программное обеспечение
