@@ -44,8 +44,30 @@ Moscow
 
 Запустить терминал: Ctrl + Alt + T
 
-(узнать localhost) ## ping localhost (192.168.56.101/22/SSH)
+(узнать localhost) #ping localhost (192.168.56.101/22/SSH)
 
+Установка пакета #subo apr update && subo apt install openssh-server -y
+
+# sudo systemctl start ssh
+# sudo systemctl enable ssh
+
+(проверка статуса) #sudo systemctl status ssh
+
+Проверка настройки: создадим файл в домашнем каталоге
+
+# sudo
+
+#
+
+#
+
+#
+
+#
+
+#
+
+#
 
 ## 3. Установлено базовое программное обеспечение
 В меню (...) проверить что есть Libro Office
