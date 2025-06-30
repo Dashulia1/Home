@@ -48,26 +48,91 @@ Moscow
 
 Установка пакета #subo apr update && subo apt install openssh-server -y
 
-# sudo systemctl start ssh
-# sudo systemctl enable ssh
+#sudo systemctl start ssh
+#sudo systemctl enable ssh
 
 (проверка статуса) #sudo systemctl status ssh
 
 Проверка настройки: создадим файл в домашнем каталоге
 
-# sudo
+#sudo -s
 
-#
+#ls -1
 
-#
+#touch 1.txt
 
-#
+#ls -1
 
-#
+(проверка) Терминал #ls -1 
 
-#
+Файл, созданный в удалённом подключении также виден в запущенной машине
 
-#
+## 4. Настройка удалённого доступа к активной сети
+
+Terminal - #ssnd --version
+
+*если нет #sudo apt install openssh-server
+
+#cd ..
+
+#cd ..
+
+#ls
+
+#cd etc
+
+#ls
+
+#cd ssh
+
+#ls
+
+#sudo nano sshd-config
+
+Port 2221
+
+x#Liston 0000
+
+x#Permit
+
+x#Pubkey
+
+cntrl o
+
+enter
+
+cntrl x
+
+#sudo systemctl restart sshd
+
+#sudo systemctl status sshd
+
+Проводное подключение, настройки подключения ip (192.168.0.1)
+
+Создаём вторую виртуальную машину, вводим в терминал ip первой
+
+#ping 192.168.0.1
+
+#ssh-p 2221 ox123@192.168.0.1
+
+#yes
+
+#ls
+
+#cd 'Рабочий стол'
+
+#ls
+
+#mkdir 123
+
+#ls
+
+*смотрим 1 вирт/маш + создаём папку (2) 
+
+#ls
+
+#exit
+
 
 ## 3. Установлено базовое программное обеспечение
 В меню (...) проверить что есть Libro Office
